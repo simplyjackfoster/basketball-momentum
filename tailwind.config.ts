@@ -3,7 +3,7 @@ import plugin from "tailwindcss/plugin";
 
 const config: Config = {
   darkMode: ["class", '[data-mode="dark"]'],
-  content: ["./index.html", "./src/**/*.{ts,tsx}"];
+  content: ["./index.html", "./src/**/*.{ts,tsx}"],
   theme: {
     extend: {
       colors: {
